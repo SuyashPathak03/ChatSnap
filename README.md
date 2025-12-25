@@ -1,50 +1,106 @@
-##ChatSnap
+Here’s a **clean and helpful README** you can put in your **ChatSnap** repository based on the files in it (`Project_Client.py` and `Project_Server.py`):
 
-ChatSnap is a simple Python socket-based chat application that lets two users communicate over a network — one acting as a server and the other as a client.
-This project demonstrates basic client–server communication using Python sockets.
-📌 Features
-🗣️ Real-time text chat between client and server
-🐍 Built with pure Python
-📡 Uses socket programming for network communication
-❗ Great for learning networking basics
-📁 Project Structure
+---
+
+# ChatSnap
+
+ChatSnap is a simple **Python socket-based chat application** that lets two users communicate over a network — one acting as a server and the other as a client.
+
+> This project demonstrates basic client–server communication using Python sockets.
+
+---
+
+## 📌 Features
+
+* 🗣️ Real-time text chat between client and server
+* 🐍 Built with pure Python
+* 📡 Uses socket programming for network communication
+* ❗ Great for learning networking basics
+
+---
+
+## 📁 Project Structure
+
+```
 ChatSnap/
 ├── Project_Client.py     # Client application
 ├── Project_Server.py     # Server application
 └── README.md
-🚀 How to Run
-🧑‍💻 1. Run the Server
-Open a terminal
-Run:
+```
+
+---
+
+## 🚀 How to Run
+
+### 🧑‍💻 1. Run the Server
+
+1. Open a terminal
+2. Run:
+
+```bash
 python Project_Server.py
+```
+
 The server will start and wait for a client to connect.
-💬 2. Run the Client
-Open a second terminal
-Run:
+
+---
+
+### 💬 2. Run the Client
+
+1. Open a second terminal
+2. Run:
+
+```bash
 python Project_Client.py
-Enter the server IP and port if asked
-Start chatting!
-💡 How It Works
-The server script listens for incoming connections
-The client script connects to the server
-Once connected, both sides can send and receive messages
+```
+
+3. Enter the server IP and port if asked
+4. Start chatting!
+
+---
+
+## 💡 How It Works
+
+* The **server script** listens for incoming connections
+* The **client script** connects to the server
+* Once connected, both sides can send and receive messages
+
 This is a basic implementation to understand how sockets work in Python.
-🛠️ Requirements
+
+---
+
+## 🛠️ Requirements
+
 ✔ Python 3.x
 ✔ No external libraries required
-🧠 Learning Outcomes
+
+---
+
+## 🧠 Learning Outcomes
+
 By exploring this project, you will learn:
-How Python socket programming works
-Basics of network communication
-How client and server exchange messages
-📌 Example Use Case
+
+* How Python **socket programming** works
+* Basics of **network communication**
+* How client and server exchange messages
+
+---
+
+## 📌 Example Use Case
+
 This project is ideal for:
+
 ✔ Learning socket basics
 ✔ Understanding real-time communication
 ✔ Building more advanced chat systems
-💬 Want to improve?
-  You can extend this project by adding:
-  GUI interface
-  Multiple clients support
-  Message encryption
-  Chat history logging
+
+---
+
+## 💬 Want to improve?
+
+You can extend this project by adding:
+
+* GUI interface
+* Multiple clients support
+* Message encryption
+* Chat history logging
