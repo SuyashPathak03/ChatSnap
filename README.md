@@ -1,4 +1,5 @@
-ChatSnap
+##ChatSnap
+
 ChatSnap is a simple Python socket-based chat application that lets two users communicate over a network — one acting as a server and the other as a client.
 This project demonstrates basic client–server communication using Python sockets.
 📌 Features
